@@ -1,12 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div>
+    <div className="home-page">
       <h1>Birds and Insects</h1>
-      <button>Insects</button>
-      <button>Birds</button>
+      <div className="buttons">
+        <button className="insects-button">Insects</button>
+        <button className="birds-buttons">Birds</button>
+      </div>
     </div>
   );
 }
