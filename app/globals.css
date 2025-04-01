@@ -1,3 +1,11 @@
+.insects-button {
+  background-color: rgb(108, 170, 108);
+  border-radius: 10px;
+}
+.birds-buttons {
+  background-color: rgb(108, 170, 108);
+  border-radius: 10px;
+}
 .home-page {
   display: flex;
   justify-content: center;
