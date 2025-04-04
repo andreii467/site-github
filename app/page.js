@@ -5,10 +5,12 @@ export default function Home() {
     <div className="home-page">
       <h1>Birds and Insects</h1>
       <div className="buttons">
-        <Link>
+        <Link href="/insects">
           <button className="insects-button">Insects</button>
         </Link>
-        <button className="birds-buttons">Birds</button>
+        <Link href="/birds">
+          <button className="birds-buttons">Birds</button>
+        </Link>
       </div>
     </div>
   );
